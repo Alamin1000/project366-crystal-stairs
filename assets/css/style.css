@@ -1,6 +1,6 @@
 /* Base CSS */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 :root {
     --primary: #E87722;
     --alert: #EFBF00;
@@ -11,6 +11,7 @@
     --black: #000000;
     --raleway: 'Raleway', sans-serif;
     --roboto-slab: 'Roboto Slab', sans-serif;
+    --inter: 'Inter', sans-serif;
 }
 
 a:focus {
@@ -59,6 +60,7 @@ a:hover {
 }
 .header-top__message {
     font-size: 17px;
+    margin-left: 70px;
     padding: 3px 60px;
     min-height: 38px;
     letter-spacing: 0.4px;
@@ -80,19 +82,19 @@ a:hover {
 }
 
 .header-main .container-fluid {
-    padding: 0 3%;
+    padding: 0 43px 0 33px;
 }
 .ht__menu {
     position: absolute;
     top: 9px;
     right: 0;
     display: flex;
+    margin-right: 148px;
 }
 .ht__a {
-    --gap: 14px;
     font-size: 17px;
-    padding-right: var(--gap);
-    margin-right: var(--gap);
+    padding-right: 15px;
+    margin-right: 17px;
     color: var(--blue);
     font-weight: 700;
     text-transform: uppercase;
@@ -121,6 +123,9 @@ a:hover {
 }
 .ht__a:hover {
     color: var(--primary);
+}
+.ht__a i {
+    font-size: 20px;
 }
 
 
@@ -235,6 +240,39 @@ a:hover {
     padding: 115px 0;
     background: var(--blue);
     color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.go-top-button {
+    margin-top: -48px;
+    font-size: 23px;
+    padding-top: 33px;
+    width: 113px;
+    height: 113px;
+    position: absolute;
+    top: 0;
+    right: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    background: var(--blue);
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-family: var(--inter);
+    text-align: center;
+    transition: 0.3s;
+}
+.go-top-button:hover {
+    color: var(--primary);
+}
+.go-top-button i {
+    
+}
+.go-top-button .txt {
+    margin-top: 31px;
+    font-size: 13px;
 }
 .footer__inner {
 
@@ -390,6 +428,7 @@ a:hover {
 
 
 .footer-bottom__outer {
+    margin-top: 128px;
     padding: 8px 0;
     background: #132138;
 }
@@ -406,8 +445,8 @@ a:hover {
 }
 .copy-right {
     font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.6px;
+    font-size: 13px !important;
+    letter-spacing: 0.7px;
 }
 .social-menu {
 
@@ -458,7 +497,7 @@ a:hover {
 }
 .cta-card__row {
     --bs-gutter-x: 46px;
-    margin-top: -200px !important;
+    margin-top: -168px !important;
 }
 .cta-card {
     padding: 72px 30px;
