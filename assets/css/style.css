@@ -46,6 +46,7 @@ a:hover {
 /*---------------------- Header area start ----------------------*/
 .header {
     background: #fff;
+    margin-bottom: 0 !important;
 }
 .header-top {
 
@@ -556,7 +557,173 @@ a:hover {
     color: var(--primary);
     text-decoration: underline;
 }
-/*----------------------  cta-area end ----------------------*
+/*----------------------  cta-area end ----------------------*/
+
+
+/*----------------------  about-hero start ----------------------*/
+.about-hero {
+    background: url('../img/about/about-hero-bg.png') no-repeat center center/cover;
+    position: relative;
+    z-index: 10;
+}
+.about-hero-content {
+    min-height: 722px;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-hero-content h4 {
+    margin-bottom: 27px;
+    font-size: 18.7px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+}
+.about-hero-content .orange-bar {
+    margin-bottom: 23px;
+}
+.orange-bar {
+    width: 110px;
+    display: inline-block;
+    height: 7px;
+    background: var(--primary);
+}
+.about-hero-content h2 {
+    line-height: 1.8;
+    letter-spacing: 0.4px;
+    font-size: 28px;
+    font-family: var(--raleway);
+}
+.about-hero-more-button {
+    font-size: 20px;
+    padding-top: 30px;
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    letter-spacing: 0.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,50%);
+    text-decoration: none;
+    color: #1b2e4f;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.about-hero-more-button:hover {
+    color: #32BCA5;
+}
+.about-hero-more-button i {
+    font-size: 30px;
+    margin-top: 10px;
+    color: #32BCA5;
+}
+
+
+/*----------------------  about-hero end ----------------------*/
+
+
+/*----------------------  about-pai start ----------------------*/
+.about-pai-area {
+    padding: 95px 0;
+}
+.about-pai-area__inner {
+
+}
+.about-pai {
+    padding: 0 10.8%;
+}
+.about-pai .pai-img {
+
+}
+/*----------------------  about-pai end ----------------------*/
+
+
+/* ---common--- */
+.cont-blk {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.cont-blk--center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sec-title {
+    margin-bottom: 20px;
+}
+.sec-title .orange-bar {
+    margin-bottom: 26px;
+}
+.h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-family: var(--raleway);
+}
+.celebrate-area__title .p {
+    font-size: 17.8px;
+    line-height: 2.3;
+    font-family: var(--roboto-slab);
+    font-weight: 400;
+}
+/* ---common---end */
+
+
+/*----------------------  celebrate area start ----------------------*/
+.celebrate-area {
+    padding: 95px 0;
+}
+.celebrate-area__title {
+    
+}
+.celebrate-area__title p {
+    padding: 0 12%;
+}
+
+.celebrate__row__outer {
+    padding: 0 9.8%;
+}
+.celebrate__row {
+    --bs-gutter-x: 56px;
+    --bs-butter-y: var(var(--bs-butter-x))
+}
+.celebrate-column {
+
+}
+.celebrate-column__image {
+
+}
+.celebrate-column__image .img {
+
+}
+.celebrate-column__text {
+
+}
+.celebrate-column__text h4 {
+
+}
+.celebrate-column__text p {
+
+}
+.celebrate-column__text .link-text {
+
+}
+.link-text {
+
+}
+
+
+/*----------------------  celebrate area end ----------------------*/
 
 
 
