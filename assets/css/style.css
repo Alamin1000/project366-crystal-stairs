@@ -160,6 +160,7 @@ a:hover {
 .header-logo__image {
     width: 99px;
     flex-shrink: 0;
+    display: block;
 }
 .header-logo__image img {
 
@@ -655,9 +656,24 @@ a:hover {
 }
 .about-pai {
     padding: 0 10.8%;
+    position: relative;
+    z-index: 1;
+}
+.about-pai__toggle-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.about-pai__toggle-title .h2 {
+    font-size: 70px;
+    color: #194176;
 }
 .about-pai .pai-img {
-
+    width: 100%;
+}
+.about-pai__inner {
+    opacity: 0;
 }
 /*----------------------  about-pai end ----------------------*/
 
@@ -732,20 +748,25 @@ a:hover {
     font-family: var(--raleway);
 }
 .celebrate-column__text p {
-    font-family: var(--roboto-slab);
     font-size: 17.8px;
+    margin-bottom: 35px;
     line-height: 2.3;
     font-family: var(--roboto-slab);
     font-weight: 400;
 }
 .celebrate-column__text .link-text {
-
+    margin-top: 20px;
 }
 .link-text {
     font-size: 21px;
     font-weight: 600;
     color: #009fa9;
     font-style: italic;
+    transition: 0.3s;
+}
+.link-text:hover {
+    color: var(--primary);
+    text-decoration: underline;
 }
 
 
