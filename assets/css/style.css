@@ -1,0 +1,44 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --blue: #1a2f50;
+    --white: #ffffff;
+    --black: #000000;
+    --raleway: 'Raleway', sans-serif;
+    --roboto: 'Roboto Slab', sans-serif;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px; 
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    color: var(--blue);
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+ 
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+a:hover {
+    text-decoration: none
+} 
+
+/*---------------------- Header area start ----------------------*/
+ 
+
+/*---------------------- Header area end ----------------------*/
