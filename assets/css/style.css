@@ -125,7 +125,7 @@ a:hover {
 
 
 .header-main {
-    padding: 29px 0;
+    padding: 31px 0 27px;
 }
 .header-main__inner {
     display: flex;
@@ -133,9 +133,10 @@ a:hover {
     align-items: center;
 }
 .header-logo {
-    gap: 37px;
-    display: inline-flex;
-    align-items: center;
+	gap: 37px;
+	margin-top: -50px;
+	display: inline-flex;
+	align-items: center;
 }
 .header-logo__image {
     width: 99px;
@@ -315,6 +316,7 @@ a:hover {
 }
 .footer-menu ul li a:hover {
     color: var(--primary);
+    text-decoration: underline;
 }  
 
 .footer-mail {
@@ -382,12 +384,143 @@ a:hover {
 }
 .footer-map h4 a:hover {
     color: var(--primary);
+    text-decoration: underline;
+}
+
+
+
+.footer-bottom__outer {
+    padding: 8px 0;
+    background: #132138;
+}
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-bottom p {
+    font-size: 12px;
+    color: #526e9d;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.copy-right {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+.social-menu {
+
+}
+.social-menu ul {
+    padding: 0;
+    display: flex;
+    gap: 17px;
+    margin: 0;
+}
+.social-menu ul li {
+    padding: 0;
+    list-style: none;
+}
+.social-menu ul li a {
+    height: 57px;
+    width: 57px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #20375E;
+    transition: 0.3s;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+.social-menu ul li a:hover {
+    background: var(--primary);
 }
 /*----------------------  footer end ----------------------*/
+
+
+/*----------------------  cta-area start ----------------------*/
+.cta-area {
+    padding: 100px 0;
+    background: url('../img/bg/cta-bg.png') no-repeat center center/cover;
+    color: #fff;
+}
+.h-0 {
+    height: 0 !important;
+}
+.cta-area__inner {
+    padding: 0 14.63%;
+}
+.cta-card__row {
+    --bs-gutter-x: 46px;
+    margin-top: -200px !important;
+}
+.cta-card {
+    padding: 72px 30px;
+    box-shadow: 0 0 30px #00000018;
+    background: #fff;
+    color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.cta-card h4 {
+    font-size: 27px;
+    margin-bottom: 9px;
+    letter-spacing: 0.1px;
+    line-height: 1.35;
+    font-family: var(--raleway);
+    font-weight: 700;
+}
+.cta-card .go-ellipse-button {
+    height: 92px;
+    width: 92px;
+    font-size: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: var(--alert);
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.cta-card .go-ellipse-button:hover {
+    background: var(--primary);
+}
+.cta-content {
+    margin-top: 80px;
+    text-align: center;
+}
+.cta-content h3 {
+    margin-bottom: 50px;
+    font-size: 34px;
+    font-family: var(--raleway);
+    font-weight: 700;
+}   
+.cta-content h4 {
+    font-weight: 400;
+    line-height: 1.7;
+}
+.cta-content h4 a {
+    color: inherit;
+    transition: 0.3s;
+}
+.cta-content h4 a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+/*----------------------  cta-area end ----------------------*
 
 
 
 /*----------------------  area start ----------------------*/
  
-
 /*----------------------  area end ----------------------*/
