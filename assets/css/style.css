@@ -2,11 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
+    --primary: #E87722;
+    --alert: #EFBF00;
     --blue: #1a2f50;
+    --blue-light: #009AC3;
+    --blue-green-light: #00C1CD;
     --white: #ffffff;
     --black: #000000;
     --raleway: 'Raleway', sans-serif;
-    --roboto: 'Roboto Slab', sans-serif;
+    --roboto-slab: 'Roboto Slab', sans-serif;
 }
 
 a:focus {
@@ -39,6 +43,195 @@ a:hover {
 } 
 
 /*---------------------- Header area start ----------------------*/
- 
+.header {
+    background: #fff;
+}
+.header-top {
+
+}
+
+.header-top__inner {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-top__message {
+    font-size: 17px;
+    padding: 3px 60px;
+    min-height: 38px;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+    background: var(--blue-light);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.header-top__message a {
+    color: inherit;
+    transition: 0.3s;
+}
+.header-top__message a:hover {
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+.header-main .container-fluid {
+    padding: 0 3%;
+}
+.ht__menu {
+    position: absolute;
+    top: 9px;
+    right: 0;
+    display: flex;
+}
+.ht__a {
+    --gap: 14px;
+    font-size: 17px;
+    padding-right: var(--gap);
+    margin-right: var(--gap);
+    color: var(--blue);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.ht__a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+.ht__a::after {
+    content: '';
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background: var(--blue);
+}
+.ht__a:last-child::after {
+    display: none;
+}
+.ht__a:hover {
+    color: var(--primary);
+}
+
+
+.header-main {
+    padding: 29px 0;
+}
+.header-main__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    gap: 37px;
+    display: inline-flex;
+    align-items: center;
+}
+.header-logo__image {
+    width: 99px;
+    flex-shrink: 0;
+}
+.header-logo__image img {
+
+}
+.header-logo__text {
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 600;
+    font-family: var(--roboto-slab);
+}
+
+.header-nav {
+    padding-top: 10px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.header-nav > ul {
+    display: flex;
+    gap: 58px;
+}
+.header-nav > ul > li {
+    padding: 0;
+    list-style: none;
+}
+.header-nav > ul > li > a {
+    padding: 10px 0;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    font-weight: 800;
+    color: var(--blue);
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+.header-nav > ul > li > a:hover {
+    
+}
+.header-nav > ul > li > a.active {
+    
+}
+.header-nav > ul > li > a::after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background: var(--primary);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: 50% 50%;
+    transition: 0.3s;
+}
+.header-nav > ul > li > a:hover::after,
+.header-nav > ul > li > a.active::after {
+    transform: scaleX(1);
+}
 
 /*---------------------- Header area end ----------------------*/
+
+
+/* ---btn--- */
+.btn {
+    padding: 5px 53px;
+    font-size: 18px;
+    min-height: 64px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: var(--primary);
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #ff770e;
+    border-color: transparent;
+}
+/* ---btn---end */
+
+
+
+
+/*----------------------  area start ----------------------*/
+ 
+
+/*----------------------  area end ----------------------*/
