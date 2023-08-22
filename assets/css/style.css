@@ -229,6 +229,162 @@ a:hover {
 /* ---btn---end */
 
 
+/*----------------------  footer start ----------------------*/
+.footer {
+    padding: 115px 0;
+    background: var(--blue);
+    color: #fff;
+}
+.footer__inner {
+
+}
+.footer-top__outer {
+
+}
+.footer-top {
+
+}
+.footer__logo-column {
+
+}
+.footer-logo {
+    width: 107px;
+    margin-bottom: 53px;
+    display: block;
+}
+.footer-logo img {
+
+}
+.footer__contact-menu {
+
+}
+.footer__contact-menu h4 {
+    font-size: 14.1px;
+    margin-bottom: 8px;
+    font-family: var(--raleway);
+    font-weight: 700;
+}
+.footer__contact-menu ul {
+    padding: 0;
+}
+.footer__contact-menu ul li {
+    list-style: none;
+    padding: 0;
+}
+.footer__contact-menu ul li a {
+    font-size: 14.1px;
+    line-height: 2.2;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    position: relative;
+    z-index: 1;
+}
+.footer__contact-menu ul li a:hover {
+    color: var(--primary);
+}
+
+.footer-menu {
+
+}
+.footer-menu h4 {
+    font-size: 15px;
+    margin-bottom: 8px;
+    letter-spacing: 0.3px;
+    color: #526e9d;
+    font-family: var(--raleway);
+    font-weight: 700;
+}
+.footer-menu ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.footer-menu ul li {
+    padding: 0;
+    list-style: none;
+}
+.footer-menu ul li a {
+    font-size: 14.1px;
+    transition: 0.3s;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.footer-menu ul li a:hover {
+    color: var(--primary);
+}  
+
+.footer-mail {
+    margin-bottom: 47px;
+}
+.footer-mail h4 {
+    font-size: 16.5px;
+    margin-bottom: 31px;
+    letter-spacing: 0.5px;
+    font-family: var(--raleway);
+    text-transform: uppercase;
+}
+.footer-mail__box {
+    display: flex;
+}
+.footer-mail__box .input-outer {
+    flex-grow: 1;
+    width: 0;
+}
+.footer-mail__box .input {
+    padding: 10px 26px;
+    min-height: 62px;
+    width: 100%;
+    border: 1px solid transparent;
+    background: #2B426B;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.footer-mail__box .input::placeholder {
+    opacity: 1;
+}
+.footer-mail__box .submit {
+    padding: 10px 42px;
+    border: 1px solid transparent;
+    width: initial;
+    background: var(--primary);
+}
+
+.footer-map {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.footer-map__map {
+    width: 210px;
+    height: 160px;
+}
+.footer-map__map img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.footer-map h4 {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 1.8;
+    font-family: var(--raleway);
+}
+.footer-map h4 a {
+    color: #fff;
+    transition: 0.3s;
+}
+.footer-map h4 a:hover {
+    color: var(--primary);
+}
+/*----------------------  footer end ----------------------*/
+
 
 
 /*----------------------  area start ----------------------*/
