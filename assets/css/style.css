@@ -1443,9 +1443,150 @@ a:hover {
     color: var(--primary);
     text-decoration: underline;
 }
-
-
 /*----------------------  celebrate area end ----------------------*/
+
+
+/*----------------------  building area start ----------------------*/
+.building-area {
+    padding: 52px 0;
+    background: var(--blue-green-light);
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+.building-bg-shape1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 587px;
+    z-index: -1;
+}
+.building-area__inner {
+    padding: 0 3.8%;
+}
+.building-area__row {
+    --bs-gutter-x: 150px;
+}
+.building__content-side {
+    padding: 187px 0 0;
+}
+.building__content__title {
+    margin-bottom: 152px;
+}
+.building__content__title h2 {
+    font-size: 45px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.building__content__title h2 .bg-shape {
+	width: 374px;
+	position: absolute;
+	top: -109px;
+	right: -11px;
+	z-index: -1;
+}
+.building__content__title h2 .text-1 {
+    font-family: var(--raleway);
+    font-weight: 400;
+}
+.building__content__title h2 .text-2 {
+    font-size: 41.5px;
+    margin-top: -28px;
+    gap: 10px;
+    font-family: var(--raleway);
+    font-weight: 600;
+    margin-left: 240px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.building__content__title h2 .text-large {
+    font-size: 110px;
+    margin-top: -23px;
+    font-family: var(--roboto-slab);
+    font-weight: 400;
+}
+.building__content {
+    padding-right: 80px;
+}
+.building__content h4 {
+    font-size: 25px;
+    margin-bottom: 24px;
+    font-family: var(--raleway);
+    font-weight: 700;
+}
+.building__content p {
+    font-family: var(--roboto-slab);
+    font-size: 17.9px;
+    letter-spacing: 0.4px;
+    margin-bottom: 35px;
+    line-height: 2.1;
+    font-family: var(--roboto-slab);
+    font-weight: 400;
+}
+.building__highlights__wrap {
+    margin-top: 40px;
+}
+.building__highlights__wrap h4 {
+    font-size: 17.6px;
+    margin-bottom: 36px;
+    font-family: var(--raleway);
+    font-weight: 800;
+    color: #007f87;
+}
+.building__highlights {
+    display: flex;
+    gap: 31px;
+}
+.building__highlight__year {
+    font-size: 25px;
+    font-family: var(--raleway);
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    line-height: 1;
+    transition: 0.3s;
+}
+.building__highlight__year:hover {
+    color: var(--blue);
+}
+.building__highlight__year::after {
+    content: '';
+    height: 100%;
+    width: 3px;
+    background: #0098a1;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -17px;
+}
+.building__highlight__year:last-child::after {
+    display: none;
+}
+
+
+.building__image-side {
+    padding-top: 147px;
+}
+.building__image-side h3 {
+    font-size: 41px;
+    margin-bottom: 34px;
+    letter-spacing: 1px;
+    font-family: var(--roboto-slab);
+    font-weight: 300;
+    text-align: center;
+}
+.building__image {
+
+}
+.building__image .img {
+
+}
+/*----------------------  building area end ----------------------*/
 
 
 
