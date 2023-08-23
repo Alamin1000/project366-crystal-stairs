@@ -225,9 +225,9 @@ a {
   color:#0d6efd;
   text-decoration:underline
 }
-a:hover {
+/* a:hover {
   color:#0a58ca
-}
+} */
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
   color:inherit;
@@ -597,7 +597,7 @@ progress {
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width:1560px;
+    max-width:1620px;
   }
 }
 .row {

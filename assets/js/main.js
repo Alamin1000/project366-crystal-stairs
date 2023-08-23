@@ -2,7 +2,13 @@
     "use strict";
 
     jQuery(document).ready(function ($) {
- 
+
+
+        $('.about-pai').click(function () {
+
+            $(this).toggleClass('show');
+
+        });
 
         $('.menu-open , .offcanvas-overlay').click(function () {
 
@@ -15,6 +21,20 @@
 
         });
 
+
+
+        $(".hero-slider").owlCarousel({
+            items: 1,
+            nav: false,
+            dot: true,
+            loop: true,
+            margin: 0,
+            autoplay: true,
+            autoplayTimeout: 7000,
+            smartSpeed: 1000,  
+            animateIn: 'fadeIn',
+            animateOut: 'fadeOut'
+        });
 
 
         $(".package-slider").owlCarousel({
@@ -62,5 +82,5 @@
 
 
     });
- 
+
 }(jQuery));
